@@ -1,0 +1,96 @@
+.container-listado {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+li.item-listado {
+    flex-basis: 190px;
+    background: linear-gradient(45deg, rgba(28, 45, 96, 1) 0%, rgba(13, 82, 143, 1) 50%, rgba(0, 112, 182, 1) 100%);
+    margin: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border-bottom: 10px solid rgb(54, 100, 173);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: ease-in-out 0.2s;
+    box-shadow: 0px 0px 6px 1.5px #0202028c;
+    img {
+        border-radius: 5px;
+        background: white;
+        margin-top: 20px;
+        padding-inline: 10px;
+        width: fit-content;
+        @media (max-width: 767px) {
+            width: 80%;
+            margin-top: 10px;
+        }
+    }
+    h3 {
+        padding-inline: 10px;
+        text-shadow: 2px 2px #262626;
+        text-transform: capitalize;
+        margin: 10px auto;
+        @media (max-width: 767px) {
+            font-size: 14px;
+            margin: 5px auto;
+            white-space: nowrap;
+            padding-inline: 5px;
+        }
+        @media (max-width: 500px) {
+            font-size: 12px;
+            margin: 5px auto;
+            white-space: nowrap;
+            padding-inline: 3.5px;
+            word-spacing: -1px;
+        }
+        @media (max-width: 350px) {
+            font-size: 11px;
+            padding-inline: 3px;
+        }
+    }
+    &:hover {
+        transition: ease-in-out 0.2s;
+        transform: translateY(-15px);
+    }
+    @media (max-width:767px) {
+        flex-basis: 29%;
+        margin-inline: 1.5%;
+        border-bottom: 5px solid rgb(54, 100, 173);
+        border-radius: 15px;
+    }
+    @media (max-width:500px) {
+        margin-inline: 1%;
+    }
+}
+
+form.form-group {
+    max-width: 350px;
+    margin: 25px auto;
+    background: linear-gradient(45deg, rgb(28, 45, 96) 0%, rgb(13, 82, 143) 50%, rgb(0, 112, 182) 100%);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    box-shadow: 0px 0px 6px 1.5px #0202028c;
+    @media (max-width: 500px) {
+        width: 90%;
+    }
+    .css-1eqhmw2 {
+        font-weight: bold;
+        font-family: 'Lato';
+    }
+    .css-259wsg {
+        width: 1.25em;
+        height: 1.25em;
+        color: #c11038;
+        font-weight: bold;
+    }
+}

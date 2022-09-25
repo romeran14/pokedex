@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'pokefont';
+    src: url('styles/fonts/pokemon.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$Pokefont:'pokefont';
+@import 'styles/PokemonDetalles';
+@import 'styles/ListadoPokemon';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+$Lato:'Lato';
+body {
+    background-color: white;
+    font-family: $Lato;
+    color: white;
+    margin-top: -15px !important;
+    h2 {
+        font-size: 20 px;
+    }
+    #root {
+        background-image: url('../src/images/poke-fondo.jpg');
+    }
+    .error {
+        color: red;
+        text-align: center;
+        margin: auto;
+        font-weight: bold;
+    }
+    .errorlist {
+        background: lightpink;
+        border: 3px solid #f54c4c;
+        max-width: 850px;
+        width: 70%;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 501px;
+    }
+    .empty {
+        height: 70vh;
+    }
+}
