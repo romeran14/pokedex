@@ -155,79 +155,81 @@ const PokemonDetalles = () => {
   };
   //chekeadno la existencia del id proporcionado por el contexto
   checkImagen(pokemonDetalles);
+
+
   const cambiarBackground = () => {
     switch (pokemonType[0]) {
       case "electric":
         return electric;
-        break;
+       
       case "normal":
         return normal;
 
-        break;
+       
       case "bug":
         return bug;
 
-        break;
+       
       case "dark":
         return dark;
 
-        break;
+       
       case "dragon":
         return dragon;
 
-        break;
+       
       case "fairy":
         return fairy;
 
-        break;
+       
       case "fighting":
         return fighting;
 
-        break;
+       
       case "flying":
         return fly;
 
-        break;
+       
       case "ghost":
         return ghost;
 
-        break;
+       
       case "grass":
         return grass;
 
-        break;
+       
       case "ground":
         return ground;
 
-        break;
+       
       case "ice":
         return ice;
 
-        break;
+       
       case "poison":
         return poison;
 
-        break;
+       
       case "psychic":
         return psychic;
 
-        break;
+       
       case "rock":
         return rock;
 
-        break;
+       
       case "steel":
         return steel;
 
-        break;
+       
       case "water":
         return water;
 
-        break;
+       
       case "fire":
         return fire;
 
-        break;
+       
 
       default:
         return normal;

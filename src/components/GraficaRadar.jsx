@@ -8,75 +8,75 @@ const GraficarRadar = (stats) => {
     switch (stats.stats.types[0].type.name) {
       case "electric":
         return "255, 232, 0";
-        break;
+       
       case "normal":
         return "227, 227, 227";
 
-        break;
+       
       case "bug":
         return "120, 187, 4 ";
 
-        break;
+       
       case "dark":
         return "52, 29, 113";
 
-        break;
+       
       case "dragon":
         return "0, 141, 98";
 
-        break;
+       
       case "fairy":
         return "230, 70, 140";
 
-        break;
+       
       case "fighting":
         return "200, 0, 0 ";
 
-        break;
+       
       case "flying":
         return "70, 136, 207";
 
-        break;
+       
       case "ghost":
         return "99, 0, 181";
 
-        break;
+       
       case "grass":
         return "12, 160, 0";
 
-        break;
+       
       case "ground":
         return "180, 75, 19";
 
-        break;
+       
       case "ice":
         return "0, 255, 212";
 
-        break;
+       
       case "poison":
         return "76, 43, 146";
 
-        break;
+       
       case "psychic":
         return "215, 27, 212";
 
-        break;
+       
       case "rock":
         return "48, 19, 11";
 
-        break;
+       
       case "steel":
         return "74, 74, 74";
 
-        break;
+       
       case "water":
         return "4, 0, 255";
 
-        break;
+       
       case "fire":
         return "255, 23, 0";
 
-        break;
+       
 
       default:
         return "227, 227, 227";
